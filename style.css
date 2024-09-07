@@ -1,0 +1,312 @@
+*main{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+nav{
+    font-size: 14px;
+    color: white;
+}
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu-bar{
+    display: none;
+}
+.imgs{
+    width: 1343px;
+    height: 700px;
+    display: inline-block;
+}
+.imgtext h1{
+    position: absolute;
+    top: 480px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellowgreen;
+    left: 29%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.imgtext .para{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    top: 550px;
+    align-items: center;
+    color: aliceblue;
+    text-transform: none;
+    left: 31%;
+}
+.imgtext .btn{
+    position: absolute;
+    top: 620px;
+    left: 44%;
+    border-radius: 25px ;
+    transform: translate(-50% , -50%S);
+    align-items: center;
+    background-color: #ffffff;
+}
+.img .btn1{
+    color:royalblue;
+    border-radius: 25px;
+    margin-top: 2px;
+    position: absolute;
+    border: 1px solid royalblue;
+    font-size: 18px;
+    left: 47%;
+    width: 5%;
+}
+.img .btn1:hover{
+    background-color: royalblue;
+    color: white;
+}
+.text{
+    font-size: 50px;
+    position: absolute;
+    top:1300px;
+    left: 38%;
+}
+.text2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 1365px;
+    left: 39%;
+}
+.btn3{
+    border-radius: 25px;
+    position: absolute;
+    top: 1420px;
+    left: 41%;
+    font-size: 20px;
+    background-color: royalblue;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    width: 10%;
+    height: 8%;
+}
+.btn4{ 
+    position: absolute;
+    top: 1420px;
+    left: 52%;
+    border: 1px solid royalblue;
+    color:royalblue;
+    border-radius: 25px;
+    width: 6%;
+    height: 8%;
+}
+.btn4:hover{
+    background-color: royalblue;
+    color: white;
+}
+.text3{
+    font-size: 50px;
+    position: absolute;
+    top:2035px;
+    left: 45%;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.text4{
+font-size: 36px;
+    position: absolute;
+    top:2100px;
+    left: 32%;
+    color: #ffffff;
+}
+.text5{
+    font-size: 36px;
+        position: absolute;
+        top:2140px;
+        left: 35.5%;
+        color: #ffffff;
+}
+.btn5{
+    border-radius: 25px;
+    position: absolute;
+    top: 2210px;
+    left: 40%;
+    font-size: 19px;
+    background-color: royalblue;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    width: 10%;
+    height: 8%;
+}
+.btn6{
+    position: absolute;
+    top: 2210px;
+    left: 51%;
+    font-size: 19px;
+    text-align: center;
+    width: 12%;
+    height: 8%;
+    border: 1px solid royalblue;
+    color:royalblue;
+    border-radius: 25px;
+
+}
+.btn6:hover{
+    background-color: royalblue;
+    color: white;
+}
+.phone{
+    float: left;
+    padding: 5px;
+    top: 20%;
+}
+.laptop{
+    top: 20%;
+    left: 60%;
+    top:451%;
+    
+}
+.text6{
+    font-size: 40px;
+    position: absolute;
+    top: 2750px;
+    left: 24%;
+    color: #ffffff;
+}
+.text7{
+    font-size: 26px;
+        position: absolute;
+        top:2800px;
+        left: 12%;
+        color: #ffffff;
+}
+.btn7{
+    border-radius: 25px;
+    position: absolute;
+    top: 2846px;
+    left: 19%;
+    font-size: 16px;
+    background-color: royalblue;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+}
+.btn8{ 
+    position: absolute;
+    top: 2846px;
+    left: 30%;
+    border: 1px solid royalblue;
+    color:royalblue;
+    border-radius: 25px;
+    width: 6%;
+    height: 6%;
+    font-size: 16px;
+}
+.btn8:hover{
+    background-color: royalblue;
+    color: white;
+}
+.text8{
+    font-size: 40px;
+    position: absolute;
+    top: 2750px;
+    left: 65%;
+    color: #000000;
+}
+.text9{
+    font-size: 26px;
+        position: absolute;
+        top:2800px;
+        left: 69%;
+        color: #000000;
+}
+.text10{
+    font-size: 20px;
+    position: absolute;
+    top: 2850px;
+    left: 69.5%;
+    color: #000000;
+}
+.btn9{
+    border-radius: 25px;
+    position: absolute;
+    top: 2885px;
+    left: 69%;
+    font-size: 16px;
+    background-color: royalblue;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+}
+.btn10{ 
+    position: absolute;
+    top: 2885px;
+    left: 80%;
+    border: 1px solid royalblue;
+    color:royalblue;
+    border-radius: 25px;
+    width: 6%;
+    height: 6%;
+    font-size: 16px;
+}
+.btn10:hover{
+    background-color: royalblue;
+    color: white;
+}
+@media screen and ( max-width: 952px) {
+    .navbar {
+      justify-content: space-around;
+    }
+    .nav-items{
+         font-size: 16px;
+         background: royalblue;
+    }
+    
+}
+@media screen and ( max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    .nav-item{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: 2c3e50;
+        top: 80px;
+        left: -100;
+        text-align: center;
+        display: inline-flex;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #check:checked{
+         left: 5;
+    }
+}
